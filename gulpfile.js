@@ -48,5 +48,5 @@ gulp.task('browserSync', function() {
     }
   });
 
-  gulp.watch('**/*', {cwd: srcDir}, reload);
+  gulp.watch(srcDir+'**/*', reload);
 });
