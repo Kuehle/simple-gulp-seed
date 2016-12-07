@@ -34,7 +34,6 @@ gulp.task('styles', function() {
 
 // watch task
 gulp.task('watch', function() {
-  gulp.watch('gulpfile.js', ['default'])
   gulp.watch(srcDir+'js/**/*.js', ['scripts']);
   gulp.watch(srcDir+'scss/**/*css', ['styles']);
   gulp.watch(srcDir+'**/*.html', ['static']);
